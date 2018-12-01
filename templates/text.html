@@ -1,0 +1,29 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{##}
+{#</body>#}
+{#</html>#}
+
+
+<html>
+
+<body>
+<p id="number">1</p>
+<button onclick="add()">点击+1……</button>
+</body>
+
+<script>
+function add()
+{
+ var x=document.getElementById("number").innerHTML;
+ x=parseInt(x)+1;
+ document.getElementById("number").innerHTML=x;
+}
+</script>
+
+</html>
